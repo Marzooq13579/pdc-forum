@@ -1,0 +1,227 @@
+.footer{
+    max-width: 78vw;
+    background: #333;
+    position: relative;
+    margin: 0;
+    margin-left: 22vw;
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    border-top: 1px solid #666;
+
+
+}
+.logof img{
+    height: 70px;
+    margin-right: 10px;
+}
+.logof{
+    background: none;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+.logof p{
+    color: lavender;
+    font-size: 10px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 70%;
+    margin: 15px;
+    width: 15%;
+    margin-top: 7%;
+}
+.column h1{
+    font-size: 15px;
+    color: lavender;
+}
+.column a{
+    text-decoration: none;
+    color: lavender;
+    font-size: 12px;
+    margin: 4px;
+
+}
+.column a:hover{
+    color: teal;
+  
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row a{
+    padding: 5px;
+    border-radius: 50%;
+}
+.copyright{
+    border-top: 1px solid #555;
+    height: 100px;
+    background: #333;
+    width: 78vw;
+    margin-left: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.copyright p{
+    font-size: 13px;
+    margin: 5px;
+    color: lavender;
+}
+@media (max-width: 768px) {
+
+    .footer{
+        min-width: 100vw;
+        margin-left: 0;
+        overflow-x: hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .logof{
+        width: 80%;
+    }
+    .copyright{
+        margin-left: 0;
+        width: 100vw;
+        height: 70px;
+    }
+    .column{
+        width: 80%;
+        margin-top: 0;
+    }
+    .column h1{
+        font-size: 12px;
+        border-bottom: 2px solid lavender;
+    }
+    .column a{
+        font-size:12px;
+    }
+
+}
+
+
+/* ======================full screen footer========================= */
+.afooter{
+    max-width: 100vw;
+    background: #333;
+    position: relative;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    border-top: 1px solid #666;
+
+
+}
+.alogof img{
+    height: 70px;
+    margin-right: 10px;
+}
+.alogof{
+    background: none;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+.alogof p{
+    color: lavender;
+    font-size: 10px;
+}
+.acolumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 70%;
+    margin: 15px;
+    width: 15%;
+    margin-top: 7%;
+}
+.acolumn h1{
+    font-size: 15px;
+    color: lavender;
+}
+.acolumn a{
+    text-decoration: none;
+    color: lavender;
+    font-size: 12px;
+    margin: 4px;
+
+}
+.acolumn a:hover{
+    color: teal;
+  
+
+}
+.arow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.arow a{
+    padding: 5px;
+    border-radius: 50%;
+}
+.acopyright{
+    border-top: 1px solid #555;
+    height: 100px;
+    background: #333;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.acopyright p{
+    font-size: 13px;
+    margin: 5px;
+    color: lavender;
+}
+
+/* =================for mobile devices===================== */
+@media (max-width: 768px) {
+
+    .afooter{
+        min-width: 100vw;
+        margin-left: 0;
+        overflow-x: hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .alogof{
+        width: 80%;
+    }
+    .acopyright{
+        margin-left: 0;
+        width: 100vw;
+        height: 70px;
+    }
+    .acolumn{
+        width: 80%;
+        margin-top: 0;
+    }
+    .acolumn h1{
+        font-size: 12px;
+        border-bottom: 2px solid lavender;
+    }
+    .acolumn a{
+        font-size:12px;
+    }
+
+}

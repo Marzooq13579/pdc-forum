@@ -1,0 +1,93 @@
+.containerr{
+    width: 78vw;
+    background: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 22vw;
+    
+}
+.text{
+    margin-top: 50px;
+    width:60vw ;
+    border: 2px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.icon{
+    color: white;
+    font-weight: bold;
+}
+.msg{
+    font-size: 13px;
+    color: white;
+    padding:10px 5px;
+}
+.contact{
+    width: 60vw;
+    padding: 10px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+
+}
+.row input{
+    height: 27px;
+    width: 40%;
+    margin: 10px 0px 10px 0px;
+    
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    background: lavender;
+    
+}
+.row{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.row textarea{
+    width: 90%;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+    background: lavender
+
+}
+.row button{
+    width: 91%;
+    height: 30px;
+    background: teal;
+    color: lavender;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* =================for mobile devices===================== */
+@media (max-width: 768px) {
+    .containerr{
+    width: 100vw;
+    margin: 0;
+    }
+    .text{
+width: 80vw;
+    }
+    .contact{
+width: 95vw;
+    }
+    .row input{
+        width: 45%;
+        margin: 2px 0px 10px 2px;
+
+    }
+
+}

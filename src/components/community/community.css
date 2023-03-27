@@ -1,0 +1,56 @@
+.comrow{
+    display: flex;
+    flex-direction: row;
+    max-width: 78vw;
+    height: 100vh;
+    margin-left: 22vw;
+    position: relative;
+
+
+    background-color: #333;
+
+}
+.comnothing{
+    width: 78vw;
+    height: 60px;
+}
+
+.comcoloum{
+    display: flex;
+    width: 50%;
+    margin: 15px;
+    background-color: #444;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.combox{
+    border: 0.2px solid lavender;
+    width: 80%;
+    height: 30%;
+    margin: 20px;
+    text-align: center;
+    background-color: #333;
+    color: lavender;
+
+}
+
+.comin{
+    position: absolute;
+    border: 2px solid lavender;
+    width: 20%;
+    height: 30px;
+    margin: 10px;
+    margin-top: 4.5%;
+
+    text-align: center;
+    background-color: #444;
+    color: lavender;
+
+
+}
+
+.combox i.fas {
+    padding: 7PX;
+}

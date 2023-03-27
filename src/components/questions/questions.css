@@ -1,0 +1,241 @@
+
+.middle-nav-menu{
+    margin-top: -16px;
+    margin-left: 22vw;
+    width: 78vw;
+    background-color: rgb(65, 64, 64);
+  }
+  .middle-nav-menu ul{
+    background-color: rgb(29, 28, 28);
+    padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  }
+
+  .middle-nav-menu ul li{
+    list-style: none;
+    list-style-type: none;
+text-decoration: none;
+
+  }
+
+  
+  .active{
+    border-bottom: 3px solid teal;
+  }
+  .middle-nav{
+    width: 78vw;
+    margin-left: 22vw;
+  }
+
+  .que{
+    background-color: inherit;
+    height: 160px;
+    width: 95%;
+    padding: 30px;
+  }
+  
+  .name{
+    color: teal;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .name:hover{
+  color: rgb(7, 172, 172);
+  }
+  
+  .q{
+    margin-top: 10px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .statement{
+    margin-top: 20px;
+    color: white;
+    font-size: 17px;
+  }
+  .views, .answer {
+    float: left;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    border: 2px solid grey;
+    background-color: rgb(32, 32, 32);
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 100px;
+    margin: 5px;
+    margin-top: 30px;
+  }
+  .answer-btn {
+    float: right;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    border: 2px solid grey;
+    background-color: rgb(5, 5, 5);
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 100px;
+    margin: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .right-head{
+    margin-top:360px;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    height: 100vh;
+    width:251.5px;
+    float: right;
+    background-color: teal;
+  }
+  .ask{
+    padding: 10px;
+    /* margin-top: -20px; */
+    background-color: rgb(32, 32, 32);
+    height: 55px;
+    text-align: center;
+    color: white;
+  
+  }
+  .ask p{
+    padding: 10px;
+    font-size: 20px;
+      margin: 20px;
+      background-color: teal;
+      padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 3px;
+  }
+  .ask p:hover{
+    transition: 0.5s;
+    background-color: lavender;
+    color: teal;
+    font-weight: bold;
+  }
+
+
+.middle-nav{
+  margin-top: -16px;
+  margin-left: 22vw;
+  width: 78vw;
+  background-color: rgb(65, 64, 64);
+  padding-bottom: 30px;
+  border-bottom: 2px solid black;
+
+}
+.menu-link {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: white;
+
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.menu-link:hover{
+  border-bottom:3px solid teal ;
+}
+
+.something{
+  position: relative;
+  width: 78vw;
+  height: 20vh;
+  background: #333;
+  margin-left: 22vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.something h1{
+  font-size: 30px;
+  color: lavender;
+  margin-top: 60px;
+}
+
+
+
+/* =================resposiveness for mobile devices======================= */
+
+@media (max-width: 768px) {
+  .middle-nav-menu{
+
+    width: 100vw;
+    background-color: rgb(65, 64, 64);
+    margin-left: 0;
+  }
+  .name{
+    font-size: 19px;
+
+  }
+  .q{
+    font-size: 15px;
+  }
+  .menu-link {
+      font-size: 14px;
+  }
+  .middle-nav{
+    width: 100vw;
+    margin-left: 0px;
+    height: 100%;
+    overflow-y:scroll;
+  }
+  .views, .answer {
+    width: 70px;
+    font-size: 12px;
+  }
+  .que{
+    background-color: inherit;
+    height: 160px;
+    width: 90vw;
+    padding: 10px;
+    font-size: 10px;
+  }
+  .answer-btn {
+    width: 70px;
+    font-size: 15px;
+  }
+
+  .statement{
+    font-size: 11px;
+  }
+  .something{
+  width: 100vw;
+  margin-left: 0px;
+  height: 18vh;
+  margin-bottom: 10px;
+  }
+  .something h1{
+    font-size: 20px;
+  }
+  .load_btn{
+width: 100vw;
+margin-left: 0;
+  
+  }
+
+}
+
+.load_btn{
+  color: lavender;
+  cursor: pointer;
+  background-color: teal;
+  padding:10px 25px;
+  margin-left: 22vw;
+  font-size: 15px;
+  font-weight: bold;
+  width: 78vw;
+  position: relative;
+
+}

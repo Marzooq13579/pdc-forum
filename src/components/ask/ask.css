@@ -1,0 +1,127 @@
+.body{
+    background: #000;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.container1{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    margin-top: 5vw;
+    
+}
+.container1 h1{
+    margin-bottom: 80px;
+    color: lavender;
+}
+.container1 input[type=text]{
+    background: white;
+    width: 78vw;
+    max-width: 80vw;
+    outline: none;
+    border: none;
+    border-bottom: 5px solid teal;
+    height: 40px;
+    min-height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.container1 textarea{
+    margin: 2px;
+    background: white;
+    min-width: 78vw;
+    max-width: 80vw;
+    outline: none;
+    border: none;
+    border-bottom: 5px solid teal;
+    height: 300px;
+    min-height: 70px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.buttons{
+    text-align: center;
+}
+.buttons input{
+    font-size: 20px;
+    margin: 10px 0px;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: teal;
+    color: lavender;
+    font-weight: bold;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+.container1 label{
+    color: teal;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin: 10px;
+    margin-bottom: 0;
+    /* border-bottom: 2px solid teal; */
+}
+.section{
+    border: 2px solid;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 2px;
+    background: lavender;
+}
+.askbtn{
+    background: teal;
+    color:lavender;
+    padding: 15px 20px;
+    z-index: 10000;
+    display: inline;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.askbtn .link{
+    font-weight: bold;
+
+}
+@media (max-width: 768px) {
+    .askbtn{
+        padding: 10px 6px;
+    
+    }
+    .askbtn .link{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .container1 input[type=text]{
+        font-size: 15px;
+    }
+    .container1 textarea{
+        font-size: 15px;
+    }
+    .container1 label{
+    font-size: 15px;
+    }
+    .container1 h1{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .container1{
+        margin-top: 50px;
+        width: 90%;
+
+    }
+
+
+    }
